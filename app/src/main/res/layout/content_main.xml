@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/app_bar_main"
+    android:id="@+id/layout">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+
+
+        <TextView
+            android:id="@+id/introTextview"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/showInFront"
+            android:textSize="18sp"
+             />
+
+
+        <Button
+            android:id="@+id/startBttn"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginTop="80dp"
+            android:background="@drawable/mybutton"
+            android:padding="4dp"
+            android:text="@string/start_test"
+            android:textAlignment="center" />
+
+
+
+
+
+
+    </LinearLayout>
+
+
+    <androidx.core.widget.ContentLoadingProgressBar
+        android:id="@+id/startprogress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:theme="@style/ProgressBarStyle"
+        app:layout_constraintTop_toTopOf="@+id/layout" android:indeterminate="true"
+        android:visibility="visible" app:layout_constraintBottom_toTopOf="@+id/layout"/>
+
+
+
+
+    <!--    <ProgressBar-->
+<!--        android:id="@+id/line_progressbar"-->
+<!--        style="?android:progressBarStyleHorizontal"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="20dp"-->
+<!--        android:progress="80"-->
+<!--        android:visibility="visible"-->
+
+<!--       />-->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

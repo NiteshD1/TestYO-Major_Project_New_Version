@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_share"
+        android:orderInCategory="100"
+        android:title="@string/menu_share"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_rate_us"
+        android:orderInCategory="100"
+        android:title="@string/rate_us"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/right_nav_btn"
+        android:orderInCategory="100"
+
+        android:title="@string/nav_button"
+        android:icon="@drawable/ic_right_nav"
+        app:showAsAction="ifRoom"
+        />
+</menu>

@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">TestYO</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="test_1">Test 1</string>
+    <string name="jee_paper_2019">Jee previous year</string>
+    <string name="title_activity_main_before">MainBeforeActivity</string>
+    <string name="textview">Go to Answert</string>
+    <string name="not_visited">Not Visited</string>
+    <string name="mark_for_review">Mark For Review</string>
+    <string name="answered">Answered</string>
+    <string name="unattempted">Unattempted</string>
+    <string name="_25">25</string>
+
+    <string name="submit">Submit</string>
+    <string name="FragmentQuestion">How are you</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="download_button">download_button</string>
+
+
+    <string name="showInFront"> ✰ This Test contains 90 Question
+                                ✰ Each Question contain 4 marks
+                                ✰ -1 will be deducted for every
+                                   incorrect Answer
+                                ✰ Time duration 3 Hours
+    </string>
+    <string name="start_test">Start Test</string>
+    <string name="_1">1</string>
+    <string name="_0">0</string>
+    <string name="rate_us">Rate us</string>
+
+    <string name="test_yo">TestYo</string>
+    <string name="tagline">Test Your Own Potential</string>
+    <string name="nav_button">Nav Button</string>
+    <string name="question_attempted">Question Attempted</string>
+    <string name="_45">45</string>
+    <string name="correct_answers">Correct Answers</string>
+
+    <string name="result">RESULT</string>
+    <string name="incorrect_answers">Incorrect Answers</string>
+
+    <string name="total_marks_obtain">Total Marks Obtain</string>
+
+    <string name="paper_total_marks">Paper Total Marks</string>
+
+    <string name="review_paper">Review Paper</string>
+    <string name="test_your_own_potential">Test Your Own Potential</string>
+
+    // array for name of exam
+
+    <string-array name="examName">
+        <item>Jee Main</item>
+        <item>Jee Advanced</item>
+<!--        <item>Ssc</item>-->
+
+<!--        <item>Upsc</item>-->
+    </string-array>
+
+</resources>

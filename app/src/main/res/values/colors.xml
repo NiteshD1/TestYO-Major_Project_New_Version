@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#64dd17</color>
+    <color name="greenLight">#b2ff59</color>
+    <color name="colorGrey">#999999</color>
+    <color name="colorPrimaryDark">#64dd17</color>
+    <color name="colorMoreDark">#008015</color>
+    <color name="colorwhite">#ffffff</color>
+    <color name="colorBlack">#FF272727</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="answered">#0fd51d</color>
+    <color name="unAttempted">#f75d59</color>
+    <color name="notVisited">#e5e4e2</color>
+    <color name="markForReview">#9e7bff</color>
+    <color name="bgRightNav">#e9fdd5</color>
+    <color name="bgQPointer">#d3efb7</color>
+    <color name="submitBtn">#7cf270</color>
+    <color name="rightNavFnt">#5c5353</color>
+    <color name="timeCatagory">#d7fbad</color>
+    <color name="holderQn">#eef7f3</color>
+    <color name="textSmallCircle">#7A7979</color>
+
+</resources>

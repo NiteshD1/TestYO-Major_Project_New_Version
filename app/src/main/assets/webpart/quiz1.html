@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<style id="hide-math">
+  math {display:none}
+</style>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Register.StartupHook("NativeMML Jax Ready",function () {
+    document.getElementById("hide-math").disabled = true;
+  });
+</script>
+
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({ CommonHTML: { linebreaks: { automatic: true } }, "HTML-CSS": { linebreaks: { automatic: true } }, SVG: { linebreaks: { automatic: true } } });
+  </script>
+<head>
+
+</head>
+<body>
+
+<style>
+
+#myqxml{
+    padding: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: justify;
+}
+
+#myoxml{
+    padding: 5px;
+    margin-right: 10px;
+    margin-left: 35px;
+    text-align: justify;
+}
+.quiz-holder
+{
+    width: 300px;
+}
+.qcontainer
+{
+    margin-bottom: 10px;
+    background: #fff;
+    border-radius : 10px;
+    box-shadow: 0 0 25px rgba(0,0,0,0.1),
+    inset 0 0 0 rgba(0,0,0,0.1);
+}
+
+.radio input[type="radio"]{
+	display: none;
+}
+.radio spannw{
+	height: 20px;
+	width: 20px;
+	margin-top: 16px;
+	margin-left: 5px;
+	border-radius: 50%;
+	border: 3px solid #f75d59;
+	display: block;
+	position: absolute;
+}
+.radio spannw:after{
+	content: "";
+	height: 10px;
+	width: 10px;
+
+	background: #f75d59;
+	display: block;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%) scale(1);
+    border-radius: 50%;
+	}
+.radio spann{
+	height: 20px;
+	width: 20px;
+	margin-top: 16px;
+	margin-left: 5px;
+	border-radius: 50%;
+	border: 3px solid #64dd17;
+	display: block;
+	position: absolute;
+}
+
+.radio spann:after{
+	content: "";
+	height: 10px;
+	width: 10px;
+
+	background: #64dd17;
+	display: block;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+
+
+
